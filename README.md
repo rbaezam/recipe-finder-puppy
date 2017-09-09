@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* If you are using rvm or rbenv then you need to install the correct ruby version (2.4.0).
 
-Things you may want to cover:
+* Install bundler gem
+```
+gem install bundler
+```
 
-* Ruby version
+* Install project dependencies
+```
+bundle install
+```
 
-* System dependencies
+* Start the ruby on rails server 
+```
+rails s
+```
 
-* Configuration
+* Open your browser with the following url: http://localhost:3000 
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Type a part of the recipe name you want search and enjoy!
