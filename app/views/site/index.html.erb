@@ -1,0 +1,29 @@
+<div class="mt-5">
+
+  <div id="errorMessage"></div>
+
+  <div class="input-group">
+
+    <input id="searchText" type="text" class="form-control" placeholder="Search for...">
+    <span class="input-group-btn">
+      <button id="searchButton" class="btn btn-secondary" type="button">Search</button>
+    </span>
+  </div>
+
+  <div id="loadingIndicator" class="text-center" style="display: none">
+    <%= image_tag("ajax-loader.gif", class: "mx-auto d-block", style: "margin-top: 50px") %>
+    <div class="message" style="margin: 10px;">Loading, please wait...</div>
+  </div>
+
+  <table class="table table-striped mt-5" style="display: none;" id="resultsTable">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Ingredients</th>
+        <th>Image</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</div>
